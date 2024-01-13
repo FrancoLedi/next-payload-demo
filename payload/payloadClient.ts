@@ -1,5 +1,5 @@
 import { getPayload } from "payload/dist/payload";
-import config from './payload.config';
+import config from '../payload.config';
 
 if (!process.env.PAYLOAD_SECRET) {
   throw new Error('PAYLOAD_SECRET environment variable is missing')
