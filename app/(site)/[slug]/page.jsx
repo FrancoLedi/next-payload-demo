@@ -1,3 +1,4 @@
+/* 
 import React from 'react';
 import { notFound } from 'next/navigation'
 import { getPayloadClient } from '../../../payload/payloadClient';
@@ -40,5 +41,15 @@ export async function generateStaticParams() {
 
   return pages.docs.map(({ slug }: { slug: string }) => ({ slug }))
 }
+*/
 
+import React from 'react'
+
+function Page() {
+
+return(
+  <div>Bienvenido</div>
+)
+}
 export default Page;
+
